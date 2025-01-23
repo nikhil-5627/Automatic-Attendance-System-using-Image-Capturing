@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "username": "faculty1",
+    "password": "$2a$08$3N2uqO3slqVwJ4OeQ9h1D.Qp8pg8fZ/c.NdpAvw6kzEsC.rgxyQWy"
+  },
+  {
+    "id": 2,
+    "username": "faculty2",
+    "password": "$2a$08$N3Fq.n3/MOknulCE1Z/2IeYN7XXWfW7ZT1t1u.KP1H5MkN5R9Fv4."
+  }
+]

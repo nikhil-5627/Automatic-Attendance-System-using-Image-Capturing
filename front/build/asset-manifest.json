@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e672f864.css",
+    "main.js": "/static/js/main.9b1141c0.js",
+    "static/media/contact-bg-image.jpg": "/static/media/contact-bg-image.2d980726533a63664b22.jpg",
+    "static/media/course-book.png": "/static/media/course-book.cb5500a85f0eeb9d9df4.png",
+    "static/media/student-placeholder.png": "/static/media/student-placeholder.3e85ca4d0d9296898deb.png",
+    "static/media/faculty-placeholder.png": "/static/media/faculty-placeholder.cfeae0e8288427c8904a.png",
+    "static/media/lp-bg-18.jpg": "/static/media/lp-bg-18.f42ecb4bc8e4c4ed24be.jpg",
+    "static/media/lp-bg-6.jpg": "/static/media/lp-bg-6.f90c569c6179d2f88047.jpg",
+    "static/media/tick1.png": "/static/media/tick1.e0be20852598b2979c82.png",
+    "static/media/lp-bg-11.jpg": "/static/media/lp-bg-11.01bc1d78e801197f97e1.jpg",
+    "static/media/lp-bg-16.jpg": "/static/media/lp-bg-16.598f81678e1eedde9ae4.jpg",
+    "static/media/lp-bg-17.jpg": "/static/media/lp-bg-17.b786d2df59ffd8ae113f.jpg",
+    "static/media/lp-bg-7.png": "/static/media/lp-bg-7.173b1cf39774b08b8bb2.png",
+    "static/media/lp-bg-2.jpg": "/static/media/lp-bg-2.fb390fd5638f927759ec.jpg",
+    "static/media/attendance_in_college.jpg": "/static/media/attendance_in_college.08808e07726b4d528f08.jpg",
+    "static/media/lp-bg-13.jpg": "/static/media/lp-bg-13.21c06992cbd6aed7b60d.jpg",
+    "static/media/lp-bg-12.jpg": "/static/media/lp-bg-12.6ed4d2912476fc0d256a.jpg",
+    "static/media/download2.png": "/static/media/download2.4ddf6d0c3175b1d9d15c.png",
+    "static/media/attendify_final_logo.jpg": "/static/media/attendify_final_logo.48b1f56bcf2e11e8cfc4.jpg",
+    "static/media/email.png": "/static/media/email.05fe2ba1af3a20d6bae4.png",
+    "static/media/attendance-3.jpg": "/static/media/attendance-3.6373c57628c68ece704c.jpg",
+    "static/media/attendance-1.jpg": "/static/media/attendance-1.fd78c55e1c23e79f463d.jpg",
+    "static/media/attendance-2.jpg": "/static/media/attendance-2.7eb5c3f38f1a9b00a960.jpg",
+    "static/media/attendance-4.jpg": "/static/media/attendance-4.384c8a52dd98392744c2.jpg",
+    "static/media/lp-bg-9.jpg": "/static/media/lp-bg-9.884c80e3188535785213.jpg",
+    "static/media/graduate3.png": "/static/media/graduate3.c5e4ea0ddf7e9b27f1ee.png",
+    "static/media/upload2.png": "/static/media/upload2.432034f2a5bfe078bb81.png",
+    "static/media/user2.png": "/static/media/user2.f131f229f1a9d22c041e.png",
+    "static/media/phonecall.png": "/static/media/phonecall.817b721f433e47376a93.png",
+    "static/media/accuracy.png": "/static/media/accuracy.37e737ff8229c4b41d9f.png",
+    "index.html": "/index.html",
+    "main.e672f864.css.map": "/static/css/main.e672f864.css.map",
+    "main.9b1141c0.js.map": "/static/js/main.9b1141c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e672f864.css",
+    "static/js/main.9b1141c0.js"
+  ]
+}

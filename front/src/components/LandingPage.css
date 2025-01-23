@@ -1,0 +1,334 @@
+/* General */
+body-lp {
+  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.pageContainer-lp {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url('../assets/lp-bg-22.jpg'); /* Background image for entire page  7,10,11,13*/ 
+  background-size: cover;
+  background-position: center;
+}
+
+/* Title Section */
+#title1-lp {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#home_page_logo-lp-1 {
+  height: 190px;
+  width: 190px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#home_page_logo-lp {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+#home_page_logo-lp:hover, #home_page_logo-lp-1:hover {
+  transform: scale(1.1);
+}
+
+.A1 {
+  font-size: 40px;
+  color: rgb(38, 255, 0);
+  font-family:'Playfair Display', serif;
+}
+
+.W1 {
+  font-size: 30px;
+  color: rgb(30, 255, 0);
+  font-family:'Playfair Display', serif;
+}
+
+/* Navbar */
+.navbar-lp {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  color: #fff;
+}
+
+.navbar-lp .navbar-brand-lp {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-lp .navbar-nav-lp {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-lp .nav-link-lp {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-lp .nav-link-lp:hover {
+  color: rgb(5, 109, 255);
+  text-decoration: none;
+}
+
+.navbar-lp .contact-btn-lp {
+  background-color: rgb(5, 109, 255);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-right: 40px;
+}
+
+.navbar-lp .contact-btn-lp:hover {
+  background-color: #003399;
+  transform: translateY(-5px);
+}
+
+/* Image Gallery Section */
+.image-gallery-lp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.gallery-image-lp {
+  width: 370px;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery-image-lp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+.about-lp-h2 {
+  text-align: center;
+  color: rgb(30, 255, 0);
+  font-family:'Playfair Display', serif;
+  font-size: 60px;
+}
+
+
+/* Keyframes for sliding animations */
+@keyframes fadeInLeft {
+from {
+  opacity: 0;
+  transform: translateX(-20%);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+@keyframes fadeInRight {
+from {
+  opacity: 0;
+  transform: translateX(20%);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+/* Apply slower fade-in with direction for each benefit box */
+.benefit-lp.animate-fade-left {
+animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+.benefit-lp.animate-fade-right {
+animation: fadeInRight 1.5s ease-out forwards;
+}
+
+/* Benefit Section */
+.benefits-section-lp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.benefit-lp {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%;
+  opacity: 1;
+  font-size: 25px;
+}
+
+/* Adjust for reverse layout in 2nd box */
+.benefit-lp-reverse {
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: 208px;
+  margin-right: 208px;
+}
+
+.benefit-lp-reverse div {
+  flex: 1;
+}
+/* Benefit Box Hover Effects */
+/* Ensure Hover Effect on Benefit Boxes */
+.benefit-lp:hover,
+.benefit-lp-reverse:hover {
+  transform: translateY(-10px) !important; /* Slightly more pronounced lift */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+
+/* Footer */
+.footer-lp {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Animation for Title */
+#title1-lp span {
+  opacity: 0;
+  transform: translateX(-30px);
+  display: inline-block;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+#title1-lp span.visible-lp {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 40px;
+  background-image: url('../assets/contact-bg-image.jpg'); /* Background image for contact section */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-item h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.get-directions {
+  color: rgb(5, 109, 255);
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: dashed;
+}
+
+.get-directions:hover {
+  color: rgb(5, 109, 255);
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer nav a:hover {
+  color: rgb(5, 109, 255);
+}
