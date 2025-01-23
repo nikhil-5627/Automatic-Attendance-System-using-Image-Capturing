@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+tf_env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
