@@ -1,0 +1,36 @@
+.confirm-register {
+    text-align: center;
+    padding: 50px;
+    background: rgba(28, 28, 30, 0.95);
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+  }
+  
+  .confirmation-buttons {
+    margin-top: 20px;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    background-color: rgb(5, 109, 255);
+    color: white;
+    border: none;
+  }
+  
+  .cancel-button {
+    background-color: grey;
+    color: white;
+    border: none;
+  }
+  

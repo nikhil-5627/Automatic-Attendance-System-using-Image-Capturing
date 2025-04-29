@@ -1,0 +1,113 @@
+/* Page background */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container-oss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/lp-bg-9.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Box with black theme and curved corners */
+.box-oss {
+    background-color: #242424;
+    width: 800px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border: 1.5px solid rgb(167, 165, 165);
+}
+
+/* Title styling */
+.title-oss {
+    color: rgb(5, 109, 255);
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow for better visibility */
+}
+
+/* Button container styling */
+.buttonContainer-oss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Element container styling */
+.element-oss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 30px;
+}
+
+.element-oss:hover {
+    transform: scale(1.05); /* Slight scale on hover for emphasis */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Larger shadow for hover */
+}
+
+/* Image styling within each option */
+.image-oss {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-oss:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Button styling */
+.button-oss {
+    width: 180px; /* Set a fixed width for equal button size */
+    height: 60px; /* Set a fixed height for equal button size */
+    padding: 10px 20px;
+    background-color: rgb(5, 109, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    font-size: 18px; /* Adjust font size to fit the new button size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-oss:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    background-color: rgb(4, 93, 204); /* Change button color on hover for feedback */
+}
+

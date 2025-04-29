@@ -1,0 +1,55 @@
+.dashboard-container-sd {
+  padding: 20px;
+  max-width: 100%; /* Allow it to expand to full width */
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff; /* Text color for dark theme */
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  background-position: center;
+  background-size: cover;
+}
+
+h1-sd, h2-sd {
+  color: white; /* Light text color for headings */
+  margin-bottom: 10px;
+}
+
+.subjects-container-sd {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns in a row */
+  gap: 20px; /* Space between the boxes */
+  margin-top: 20px;
+  justify-content: center; /* Centers the grid */
+}
+
+.subject-box-sd {
+  background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6); /* Enhanced shadow */
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-align: left;
+  font-size: 1.1rem; /* Slightly larger font size */
+}
+
+.subject-box-sd:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighter background on hover */
+  transform: scale(1.05); /* Grow effect on hover */
+}
+
+.subject-box-sd p {
+  margin: 5px 0;
+  color: #c9c9c9; /* Softer gray for text */
+}
+
+.subject-box-sd p strong {
+  color: #e0e0e0; /* Lighter color for labels */
+}
+
+.error-sd {
+  color: #ff6b6b; /* Red for error messages */
+  font-weight: bold;
+  margin-top: 20px;
+}

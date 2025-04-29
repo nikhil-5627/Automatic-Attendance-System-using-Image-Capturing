@@ -1,0 +1,78 @@
+html, body {
+  background-color: #444;
+}
+
+.dashboard-container-fd {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0); /* Slightly darker background */
+  background-image: none;
+  background-position: center;
+  background-size: cover;
+  color: #fff; /* Ensure white text for better visibility */
+  text-align: center;
+  border-radius: 10px;
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1-fd {
+  font-size: 3rem; /* Larger font size for better visibility */
+  margin-bottom: 10px;
+  color: #ffffff; /* Ensure heading is visible */
+}
+
+h2-fd {
+  font-size: 2rem; /* Larger font size for better visibility */
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Light gray for better readability */
+}
+
+.courses-container-fd {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing dynamically */
+  gap: 15px; /* Reduced gap between courses */
+  flex-wrap: wrap; /* Wrap to new lines if needed */
+  width: 80%; /* Adjust width to utilize more space */
+  margin: 0 auto;
+}
+
+.course-box-fd,
+.course-box-fd.clickable-fd {
+  width: 22%; /* Utilize more space on the page */
+  min-width: 200px;
+  height: 200px; /* Maintain a consistent box size */
+  border: 1px solid #444; /* Darker border for contrast */
+  border-radius: 10px; /* Slightly larger border radius */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency for visibility */
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #fff; /* White text inside the course box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-box-fd:hover,
+.course-box-fd.clickable-fd:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.course-box-fd p {
+  margin: 10px 0;
+  font-size: 1.3rem; /* Adjust font size */
+  color: #ffffff; /* Ensure white color for text */
+}
+
+.error-fd {
+  color: red;
+  font-size: 1.6rem; /* Larger error message */
+  margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+body {
+  background-image: url('../assets/lp-bg-16.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.faculty-details-container {
+  position: relative;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: rgba(18, 18, 18, 0.7); /* Changed to semi-transparent */
+  color: #e0e0e0;
+}
+
+.faculty-details-title {
+  font-size: 2rem;
+  color: #e0e0e0; /* Adjusted for dark theme */
+  text-align: center;
+  margin-top: 100px; /* Space below the button */
+}
+
+.register-faculty-button {
+  position: absolute;
+  top: 20px; /* Top-right positioning */
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-faculty-button:hover {
+  background-color: #ff5722;
+  transform: translateY(-2px);
+}
+
+/* Table Styles */
+.Faculty-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.Faculty-details-table th, .Faculty-details-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+.Faculty-details-table th {
+  background-color: #333;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.Faculty-details-table td {
+  background-color: #262626;
+  color: #ddd;
+}
+
+.Faculty-details-table tr:hover {
+  background-color: #444; /* Highlight on hover */
+}
+
+.Faculty-details-table td, .Faculty-details-table th {
+  border-left: 1px solid #555;
+}
+
+.Faculty-details-table td:last-child, .Faculty-details-table th:last-child {
+  border-right: 1px solid #555;
+}
+
+.Faculty-details-table tr:first-child th {
+  border-top: 2px solid #ff5722; /* Accent color for the top border */
+}

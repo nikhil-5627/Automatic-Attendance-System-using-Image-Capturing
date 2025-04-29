@@ -1,0 +1,72 @@
+/* Background Styles */
+body {
+  background-image: url('../assets/lp-bg-16.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Student Details Container */
+.student-details-container {
+  position: relative;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: rgba(18, 18, 18, 0.7); /* Semi-transparent background */
+  color: #e0e0e0;
+}
+
+/* Title Styles */
+.student-details-title {
+  font-size: 2rem;
+  color: #e0e0e0; /* Light text color for dark theme */
+  text-align: center;
+  margin-top: 100px; /* Space from the top */
+}
+
+/* Button Styles */
+.register-student-button {
+  position: absolute;
+  top: 20px; /* Top-right positioning */
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-student-button:hover {
+  background-color: #ff5722;
+  transform: translateY(-2px);
+}
+
+/* Table Styles */
+.student-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.student-details-table th, .student-details-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.student-details-table th {
+  background-color: #360a0a;
+}
+
+.student-details-table tr:nth-child(even) {
+  background-color: #690505;
+}
+
+.student-details-table tr:hover {
+  background-color: #f1f1f1;
+}
